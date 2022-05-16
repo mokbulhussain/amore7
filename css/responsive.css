@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1199.98px) {
+    .client-area {
+        padding-top: 80px;
+    }
+    .subscribe-form {
+        width: 100%;
+        background: #F6F9FF;
+        padding: 6px 6px;
+    }
+
+    .footer-newsletter-heading h3 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    div#navbarSupportedContent {
+        background: #ffffff;
+        position: absolute;
+        width: 100%;
+        top: 72px;
+        left: 0px;
+        padding-bottom: 20px;
+    }
+    .navbar-toggler-icon {
+
+      	border-radius: 2px;
+  	}
+    .nav-menu {
+      	align-items: left;
+      	display: inline;
+    }
+    .nav-menu-right li a {
+		margin-left: 28px;
+    }
+    .banner-content h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .feature-area {
+        padding: 60px 15px;
+    }
+
+    .feature-list p {
+        font-size: 14px;
+    }
+    .about-content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+
+@media only screen and (max-width: 767.98px) {
+    header {
+        height: 920px; 
+    }
+    section.feature {
+        margin-top: 100px;
+    }
+
+    .feature-area {
+        padding: 60px 15px;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background: #2F4858;
+    }
+
+    section.faq {
+        margin-top: -130px;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+}
