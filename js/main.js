@@ -24,14 +24,19 @@
             breakpoint: 600,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              dots:false
+
+              
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              dots:false,
+              arrows:false
             }
           }
           // You can unslick at a given breakpoint now by adding:
@@ -59,7 +64,25 @@
      
 
 
-      $('.slider-for').slick({
+      // $('.slider-for').slick({
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   arrows: true,
+      //   fade: true,
+      //   asNavFor: '.nav-slide'
+      // });
+      // $('.nav-slide').slick({
+      //   slidesToShow: 5,
+      //   slidesToScroll: 1,
+      //   asNavFor: '.slider-for',
+      //   dots: false,
+      //   centerMode: true,
+      //   focusOnSelect: true,
+      //   arrows:false
+      // });
+
+
+        $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
@@ -70,11 +93,16 @@
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
-        dots: false,
         centerMode: true,
-        focusOnSelect: true,
         arrows:false
       });
+
+      if ($(window).width() < 576) {
+        $(".slick-current").next().removeClass("middle");
+     }
+     else {
+        alert('More than 960');
+     }
 
 
 })(jQuery);	    
