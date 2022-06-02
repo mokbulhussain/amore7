@@ -101,7 +101,7 @@
         $(".slick-current").next().removeClass("middle");
      }
      else {
-        alert('More than 960');
+        console.log('More than 960');
      }
 
 
