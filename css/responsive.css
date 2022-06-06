@@ -19,9 +19,18 @@
         background: #ffffff;
         position: absolute;
         width: 100%;
-        top: 72px;
+        top: 92px;
         left: 0px;
-        padding-bottom: 20px;
+        padding: 10px 0px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img/icon/menu.svg);
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
     }
     .navbar-toggler-icon {
 
@@ -32,8 +41,23 @@
       	display: inline;
     }
     .nav-menu-right li a {
-		margin-left: 28px;
+		margin-left: 0px;
     }
+    .navbar-toggler-icon {
+
+      	border-radius: 2px;
+  	}
+    .nav-menu {
+      	align-items: left;
+      	display: inline;
+    }
+    .nav-menu-right li a {
+		margin-left: 12px;
+    }
+
+
+
+
     .banner-content h1 {
         font-size: 44px;
         line-height: 54px;
@@ -80,6 +104,47 @@
 
 @media only screen and (max-width: 575.98px) {
 
+    .banner-content {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .banner-content a {
+        padding: 10px 24px;
+    }
+    .banner-content p {
+        margin-bottom: 40px;
+    }
+    .banner-img img {
+        margin-top: 20px;
+    }
+    .about-content {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .about-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .client-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    section.about {
+        margin-top: 90px;
+    }
+    .client-section {
+        margin-top: 50px;
+    }
+    section.faq {
+        margin-top: -110px;
+    }
+
+
     .client-slider {
         width: 100%;
 
@@ -111,6 +176,16 @@
         text-align: center;
         margin-bottom: 0px;
     }
+    .slick-next {
+    
+        display: none !important;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+    .subscribe-form form input {
+        width: 190px;
+    }
 
     .nav-slide {
         margin-top: -280px;
@@ -130,5 +205,28 @@
     .footer-form {
         padding-left: 0px;
         margin-top: 30px;
+    }
+    .footer-part1 {
+        text-align: center;
+    }
+
+    .footer-part h3 {
+    
+        margin-top: 40px;
+    }
+    .footer-part {
+        text-align: center;
+    }
+    .footer-part4.footer-part {
+        margin-top: 30px;
+    }
+    .footer-subscribe {
+        width: 256px;
+        margin: 0px auto;
+    }
+    .faq-heading h2 {
+       
+        font-size: 28px;
+        line-height: 38px;
     }
 }
